@@ -96,7 +96,7 @@
             }).done(function (result) {
                 console.log(result);
                 var min = 0;
-                var max = 0;
+                var max = 10;
                 var rnum =  Math.floor(Math.random() * (max - min + 1) ) + min;
                 var selected = result.filter(function (item) {
                     return item.id == rnum;
